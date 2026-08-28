@@ -1,1 +1,20 @@
+.contato {
+    background: white;
+    padding: 100px 5%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+.contato-info > p:not(.titulo-pequeno) {
+    color: #62596c;
+    margin-bottom: 30px;
+}
+
+.titulo-pequeno {
+    color: #8E4585;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
 
