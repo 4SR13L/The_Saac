@@ -215,3 +215,71 @@ footer a:hover {
 
     color: #c8c1d0;
 }
+@media (max-width: 850px) {
+
+    .navbar {
+        height: auto;
+        padding: 20px 0;
+
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .menu {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero {
+        min-height: calc(100vh - 130px);
+    }
+
+    .sobre,
+    .contato {
+        grid-template-columns: 1fr;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-conteudo {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .sobre,
+    .cardapio,
+    .contato {
+        padding: 70px 5%;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .sobre-imagem img {
+        height: 350px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .numeros {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .formulario {
+        padding: 25px;
+    }
+
+    .footer-conteudo {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
