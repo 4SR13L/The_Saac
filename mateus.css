@@ -1,166 +1,3 @@
-.contato {
-    background: white;
-    padding: 100px 5%;
-.cardapio {
-    padding: 100px 5%;
-    background: var(--lavender);
-}
-
-.titulo-secao {
-    max-width: 650px;
-    margin: 0 auto 50px;
-    text-align: center;
-}
-
-.titulo-secao h2 {
-    font-family: Georgia, serif;
-    font-size: clamp(2.2rem, 5vw, 3.5rem);
-    margin: 12px 0;
-}
-
-.titulo-secao h2 span {
-    color: var(--plum);
-}
-
-.titulo-secao > p:last-child {
-    color: #62596c;
-}
-.cards {
-   max-width: 1150px;
-   margin: auto;
-
-
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   gap: 25px;
-}
-
-.card {
-   background: white;
-   padding: 35px 25px;
-
-
-   border-radius: 18px;
-   text-align: center;
-
-
-   box-shadow: 0 8px 25px rgba(48, 40, 59, 0.08);
-
-
-   transition: 0.3s;
-}
-
-
-.card:hover {
-   transform: translateY(-8px);
-}
-
-
-.card.destaque {
-   color: white;
-
-
-   background:
-       linear-gradient(
-           135deg,
-           var(--slate-blue),
-           var(--plum)
-       );
-      
-}
-
-
-.icone {
-   font-size: 3rem;
-   margin-bottom: 15px;
-}
-
-
-.card h3 {
-   font-family: Georgia, serif;
-   font-size: 1.5rem;
-   margin-bottom: 10px;
-}
-
-
-.card p {
-   color: #6a6270;
-   margin-bottom: 20px;
-}
-
-.card.destaque p {
-   color: var(--light-cyan);
-}
-
-
-.card strong {
-   color: var(--plum);
-   font-size: 1.2rem;
-}
-
-
-.card.destaque strong {
-   color: var(--light-cyan);
-}
-
-.sobre {
-    background: white;
-    padding: 100px 5%;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
-    align-items: center;
-}
-
-.sobre-imagem img {
-    width: 100%;
-    height: 480px;
-    object-fit: cover;
-    border-radius: 20px;
-
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
-}
-
-.titulo-pequeno {
-    color: var(--plum);
-    font-weight: bold;
-    letter-spacing: 3px;
-}
-
-.sobre-texto h2,
-.contato-info h2 {
-    font-family: Georgia, serif;
-    font-size: clamp(2.3rem, 5vw, 3.5rem);
-    line-height: 1.2;
-    margin: 15px 0 25px;
-}
-
-.sobre-texto h2 span,
-.contato-info h2 span {
-    color: var(--plum);
-}
-
-.sobre-texto p {
-    color: #62596c;
-    margin-bottom: 18px;
-}
-
-.numeros {
-    display: flex;
-    gap: 40px;
-    margin-top: 30px;
-}
-
-.numero strong,
-.numeros strong {
-    display: block;
-    font-size: 2rem;
-    color: var(--slate-blue);
-}
-
-.numeros span {
-    color: #62596c;
 * {
     margin: 0;
     padding: 0;
@@ -237,6 +74,7 @@ header {
 .menu a:hover {
     color: var(--light-cyan);
 }
+
 .hero {
     width: 90%;
     max-width: 1150px;
@@ -295,6 +133,160 @@ header {
     transform: translateY(-3px);
 }
 
+.cardapio {
+    padding: 100px 5%;
+    background: var(--lavender);
+}
+
+.titulo-secao {
+    max-width: 650px;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+.titulo-secao h2 {
+    font-family: Georgia, serif;
+    font-size: clamp(2.2rem, 5vw, 3.5rem);
+    margin: 12px 0;
+}
+
+.titulo-secao h2 span {
+    color: var(--plum);
+}
+
+.titulo-secao > p:last-child {
+    color: #62596c;
+}
+
+.cards {
+   max-width: 1150px;
+   margin: auto;
+
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 25px;
+}
+
+.card {
+   background: white;
+   padding: 35px 25px;
+
+   border-radius: 18px;
+   text-align: center;
+
+   box-shadow: 0 8px 25px rgba(48, 40, 59, 0.08);
+
+   transition: 0.3s;
+}
+
+.card:hover {
+   transform: translateY(-8px);
+}
+
+.card.destaque {
+   color: white;
+
+   background:
+       linear-gradient(
+           135deg,
+           var(--slate-blue),
+           var(--plum)
+       );
+}
+
+.icone {
+   font-size: 3rem;
+   margin-bottom: 15px;
+}
+
+.card h3 {
+   font-family: Georgia, serif;
+   font-size: 1.5rem;
+   margin-bottom: 10px;
+}
+
+.card p {
+   color: #6a6270;
+   margin-bottom: 20px;
+}
+
+.card.destaque p {
+   color: var(--light-cyan);
+}
+
+.card strong {
+   color: var(--plum);
+   font-size: 1.2rem;
+}
+
+.card.destaque strong {
+   color: var(--light-cyan);
+}
+
+.sobre {
+    background: white;
+    padding: 100px 5%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.sobre-imagem img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 20px;
+
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.titulo-pequeno {
+    color: var(--plum);
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.sobre-texto h2,
+.contato-info h2 {
+    font-family: Georgia, serif;
+    font-size: clamp(2.3rem, 5vw, 3.5rem);
+    line-height: 1.2;
+    margin: 15px 0 25px;
+}
+
+.sobre-texto h2 span,
+.contato-info h2 span {
+    color: var(--plum);
+}
+
+.sobre-texto p {
+    color: #62596c;
+    margin-bottom: 18px;
+}
+
+.numeros {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.numero strong,
+.numeros strong {
+    display: block;
+    font-size: 2rem;
+    color: var(--slate-blue);
+}
+
+.numeros span {
+    color: #62596c;
+}
+
+.contato {
+    background: white;
+    padding: 100px 5%;
+
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 60px;
@@ -350,7 +342,6 @@ header {
 .informacao p {
     color: #62596c;
 }
-
 
 .formulario {
     background: #E6E6FA;
@@ -435,7 +426,6 @@ header {
     border-color: #6A5ACD;
 }
 
-
 footer {
     background: #292438;
 
@@ -508,6 +498,7 @@ footer a:hover {
 
     color: #c8c1d0;
 }
+
 @media (max-width: 850px) {
 
     .navbar {
