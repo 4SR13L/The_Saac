@@ -9,7 +9,7 @@ Cat Gamer Cafe ficticio.
 
 Notas do Gerente:
 
-Diogo - Realizou a parte de sobre, foi o primeiro a integrante a fazer o Pull Request. Além do mais não houve um erro em relação a parte dele.
+Diogo - Realizou a parte de sobre, foi o primeiro a integrante a fazer o Pull Request. Além do mais não houve um erro em relação a parte dele. Deu a sugestão do nome escolhido para o site
 
 Bruno - Foi ótimo entretanto suas partes conflitaram, entregou de uma forma diferente, mas isso foi facilmente resolvido, mas foi o úiltimo a concluir sua parte. Auxiliou os demais membros a como fazer o Pull Request.
 
