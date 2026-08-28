@@ -3,5 +3,12 @@ Cat Gamer Cafe ficticio.
 ## Equipe
 - Gileade — Gerente — Header e Home — feature/header
 - Diogo — Sobre — feature/sobre
-- Bruna — Serviços — feature/servicos
+- Bruno — Serviços — feature/servicos
 - Lucas — Contato e Footer — feature/contato
+
+
+Notas do Gerente:
+
+Diogo - 
+Bruno -
+Lucas - 
