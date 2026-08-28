@@ -1,1 +1,60 @@
+.sobre {
+    background: white;
+    padding: 100px 5%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.sobre-imagem img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 20px;
+
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.titulo-pequeno {
+    color: var(--plum);
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.sobre-texto h2,
+.contato-info h2 {
+    font-family: Georgia, serif;
+    font-size: clamp(2.3rem, 5vw, 3.5rem);
+    line-height: 1.2;
+    margin: 15px 0 25px;
+}
+
+.sobre-texto h2 span,
+.contato-info h2 span {
+    color: var(--plum);
+}
+
+.sobre-texto p {
+    color: #62596c;
+    margin-bottom: 18px;
+}
+
+.numeros {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.numero strong,
+.numeros strong {
+    display: block;
+    font-size: 2rem;
+    color: var(--slate-blue);
+}
+
+.numeros span {
+    color: #62596c;
+}
 
