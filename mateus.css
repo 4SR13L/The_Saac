@@ -22,3 +22,82 @@
 .titulo-secao > p:last-child {
     color: #62596c;
 }
+.cards {
+   max-width: 1150px;
+   margin: auto;
+
+
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 25px;
+}
+
+.card {
+   background: white;
+   padding: 35px 25px;
+
+
+   border-radius: 18px;
+   text-align: center;
+
+
+   box-shadow: 0 8px 25px rgba(48, 40, 59, 0.08);
+
+
+   transition: 0.3s;
+}
+
+
+.card:hover {
+   transform: translateY(-8px);
+}
+
+
+.card.destaque {
+   color: white;
+
+
+   background:
+       linear-gradient(
+           135deg,
+           var(--slate-blue),
+           var(--plum)
+       );
+      
+}
+
+
+.icone {
+   font-size: 3rem;
+   margin-bottom: 15px;
+}
+
+
+.card h3 {
+   font-family: Georgia, serif;
+   font-size: 1.5rem;
+   margin-bottom: 10px;
+}
+
+
+.card p {
+   color: #6a6270;
+   margin-bottom: 20px;
+}
+
+.card.destaque p {
+   color: var(--light-cyan);
+}
+
+
+.card strong {
+   color: var(--plum);
+   font-size: 1.2rem;
+}
+
+
+.card.destaque strong {
+   color: var(--light-cyan);
+}
+
+
