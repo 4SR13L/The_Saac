@@ -1,1 +1,24 @@
+.cardapio {
+    padding: 100px 5%;
+    background: var(--lavender);
+}
 
+.titulo-secao {
+    max-width: 650px;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+.titulo-secao h2 {
+    font-family: Georgia, serif;
+    font-size: clamp(2.2rem, 5vw, 3.5rem);
+    margin: 12px 0;
+}
+
+.titulo-secao h2 span {
+    color: var(--plum);
+}
+
+.titulo-secao > p:last-child {
+    color: #62596c;
+}
